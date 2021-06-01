@@ -1,0 +1,89 @@
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.header {
+  width: 100%;
+  height: 15vh;
+  background: rgba(235, 22, 22, 0.1);
+  border-bottom: 2px solid rgba(26, 29, 29, 0.1);
+  /* backdrop-filter: blur(5px); */
+}
+.sectionside {
+  width: 100%;
+  height: 5vh;
+  background: rgba(68, 22, 235, 0.1);
+}
+.main {
+  width: 100%;
+  background: rgba(68, 22, 235, 0.1);
+  border-bottom: 5px;
+  flex: 1;
+  display: flex;
+}
+.right {
+  width: 70%;
+  margin: 2rem;
+}
+.profile {
+  width: 100%;
+  height: 40vh;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  border: 1px solid rgba(32, 34, 34, 0.5);
+}
+.skill {
+  width: 100%;
+  height: 30vh;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  border: 1px solid rgba(32, 34, 34, 0.5);
+}
+.activity {
+  width: 100%;
+  height: 30vh;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  border: 1px solid rgba(32, 34, 34, 0.5);
+}
+.experience {
+  width: 100%;
+  height: 50vh;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  border: 1px solid rgba(32, 34, 34, 0.5);
+}
+.left {
+  width: 30%;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgbox {
+  width: 100%;
+  height: 25vh;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  border: 1px solid rgba(32, 34, 34, 0.5);
+}
+.viewedbox {
+  width: 100%;
+  height: 50vh;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  border: 1px solid rgba(32, 34, 34, 0.5);
+}
+.knowpeople {
+  width: 100%;
+  height: 50vh;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  border: 1px solid rgba(32, 34, 34, 0.5);
+}
