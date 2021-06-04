@@ -54,6 +54,10 @@ a:hover {
   color: gray;
 }
 
+.icon {
+  display: flex;
+}
+
 .footerIcon {
   color: gray;
 }
@@ -81,7 +85,7 @@ a:hover {
 }
 
 .corporation {
-  margin: 1rem 14rem;
+  margin: 1.5rem 0rem 0rem 0rem;
   font-size: small;
   color: grey;
 }
