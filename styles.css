@@ -3,10 +3,14 @@ html {
 }
 body {
   margin: 0;
+  padding: 0;
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  font-family: Arial, sans-serif;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell,
+    Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+    Lucida Grande, Helvetica, Arial, sans-serif;
 }
 .header {
   width: 100%;
@@ -78,12 +82,12 @@ body {
 .viewedbox {
   margin-top: 1rem;
   width: 300px;
-  height: 540px;
+  height: 560px;
   background: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   border-radius: 10px;
-  border: 2px solid rgba(128,128,128, 0.5);
+  border: 1px solid rgba(128,128,128, 0.3);
 }
 .viewechild {
   width: 100%;
@@ -99,7 +103,7 @@ body {
   padding: 0;
   border: 0;
   font-size: 100%;
-  display: block;
+  display: block; 
   list-style-type: disc;
   margin-block-start: 1em;
   margin-block-end: 1em;
@@ -118,16 +122,28 @@ body {
   margin: 0;
   padding: 0;
   font-size: 10px;
-  vertical-align: baseline;
+  /* vertical-align: baseline; */
   background: transparent;
   display: flex;
-  
+  text-decoration: none;
+}
+a:link {
+  color: gray;
+}
+
+a:visited {
+  color: grey;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
 }
 .img-custom{
   height:50px ;
   width:50px;
   border-radius: 50%;
-  margin-right: 0.1rem;
+  margin-right: 0.2rem;
 }
 .info-custom {
   flex: 1;
@@ -135,8 +151,9 @@ body {
   flex-direction: column; */
 }
 .h3-custom {
-  line-height: 1.33333;
+  line-height: 1;
   word-break: break-word;
+  color: rgb(0,0,0)
 }
 .footer-custom {
   justify-content: center;
@@ -152,9 +169,12 @@ body {
   padding-left: 1.6rem !important;
   padding-right: 1.6rem !important;
   background: rgb(255, 255, 255);
-  
   border-radius: 15px;
   border: 2px solid rgba(0,0,0, 0.5);
+  cursor: pointer;
+}
+.button-custom:hover{
+  background: rgba(128,128,128, 0.2);
 }
 .viewedfooter{
   border-top:1px solid  rgb(128, 128, 128,0.5);
@@ -169,14 +189,15 @@ body {
   border: 2px solid rgba(0,0,0, 0.5);
   border: none;
 }
+
 .knowpeople {
   margin-top: 1rem;
   width: 300px;
-  height: 540px;
+  height: 560px;
   background: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   border-radius: 10px;
-  border: 2px solid rgba(128,128,128, 0.5);
+  border: 1px solid rgba(128,128,128, 0.3);
 }
-}
+
