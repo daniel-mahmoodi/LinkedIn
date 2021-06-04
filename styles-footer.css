@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  direction: ltr;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell,
+    Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+    Lucida Grande, Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: gray;
+}
+
+a:visited {
+  color: grey;
+}
+
+a:hover {
+  color: black;
+}
+
+.footer {
+  width: 70%;
+  margin: 2rem 14rem;
+  padding-top: 1.5rem;
+  height: 25vh;
+  border-top: 0.008rem solid gray;
+  font-size: small;
+}
+
+.mercado-match {
+  color: #0a66c2;
+}
+
+.footerWithoutLogo {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+
+.footerAdd {
+  display: flex;
+  flex-direction: column;
+  width: 16rem;
+  justify-content: left;
+  list-style-type: none;
+  color: gray;
+}
+
+.footerIcon {
+  color: gray;
+}
+
+.footerLinks {
+  padding-left: 0rem;
+  display: grid;
+  grid-template-columns: 12rem 12rem 12rem;
+  grid-template-rows: 1.5rem 1.5rem 1.5rem 1.5rem 1.5rem;
+  list-style-type: none;
+  align-items: baseline;
+}
+
+.pageLang {
+  color: grey;
+  font-size: small;
+}
+
+#selectLanguage {
+  color: gray;
+  all: unset;
+  border: gray solid 0.08rem;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+}
+
+.corporation {
+  margin: 1rem 14rem;
+  font-size: small;
+  color: grey;
+}
