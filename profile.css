@@ -1,0 +1,294 @@
+.InProfile {
+    font-family: apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: white;
+    border-radius: 0.5rem;
+}
+
+.profileBackgroundImg {
+    width: 72rem;
+    height: 100%;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.editProfileBackground {
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    border-radius: 50%;
+    border: 0rem solid;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.svgEditProfileBackground {
+    color: rgb(10, 102, 194);
+}
+
+.profileBackground {
+    position: relative;
+}
+
+.allSpecifications {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 0.5rem;
+}
+
+.editANDuserProfile {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.userProfile {
+    margin-top: -15.6rem;
+    margin-left: 0.6rem;
+}
+
+.avatarUserProfile {
+    /* border-radius: 50%; */
+    width: 20rem;
+    height: 20rem;
+    border: 0.6rem solid rgb(238, 238, 238);
+    vertical-align: middle;
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+}
+
+
+/* @media only screen and (max-width:768px) {
+    .avatarUserProfile {
+        width: 10rem;
+        height: 10rem;
+    }
+} */
+
+.positionEditIntro {
+    padding-right: 2rem;
+}
+
+.editIntro {
+    position: absolute;
+    padding: 0.7rem 0.5rem 0.7rem 0.8rem;
+    width: 2rem;
+    height: 2rem;
+    color: rgba(41, 41, 41, 0.9);
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.editIntro:hover {
+    background-color: rgb(224, 224, 224);
+}
+
+.userInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.userPersonalDetails {
+    margin: 1rem;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+.userTextHeading {
+    font-size: 2.4rem;
+    font-weight: 600 bold;
+    padding: 0rem;
+    margin: 0rem;
+}
+
+.userTextJob {
+    font-size: 1.6rem;
+    font-weight: 400 bold;
+    margin-bottom: 0.3rem;
+}
+
+.userLocation {
+    margin-bottom: 0.5rem;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.userContactInfo {
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: rgb(10, 102, 194) !important;
+}
+
+.userContactInfo:hover {
+    text-decoration: underline;
+}
+
+.userLastPosition {
+    margin: 1rem 1rem 1rem 2rem;
+}
+
+.workAtImg {
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+}
+
+.userLastPositionPlace {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0, 0.7);
+}
+
+.userLastPositionPlace div h2 {
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+.connections {
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-left: 0;
+    margin-top: 0rem;
+    padding-left: 0px;
+}
+
+.connectionsTag {
+    color: rgb(10, 102, 194) !important;
+    text-decoration: none;
+}
+
+.connectionsTag:hover {
+    text-decoration: underline;
+}
+
+.userLastPositionPlace:hover {
+    text-decoration: underline;
+}
+
+.cardsButton {
+    display: flex;
+}
+
+.eachCardsButton,
+.openTo {
+    background-color: rgba(255, 0, 0, 0);
+    margin-right: 0.7rem;
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-weight: 600;
+    padding: 0.5rem 1.6rem 0.5rem 1.6rem;
+    color: rgba(0, 0, 0, 0.6);
+    border-color: rgba(0, 0, 0, 0.6);
+    border-style: solid;
+    border-width: 0.1rem;
+    border-radius: 1.6rem;
+    line-height: 1.5;
+    justify-content: center;
+    text-align: center;
+    display: block;
+}
+
+.eachCardsButton:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-width: 0.2rem;
+    /* bayad dorost shavad */
+    padding: 0.4rem 1.41rem 0.4rem 1.6rem;
+}
+
+.openTo {
+    background-color: rgb(10, 102, 194);
+    color: rgb(248, 248, 248);
+    border-width: 0rem;
+}
+
+.openTo:hover {
+    background-color: rgb(3, 65, 128);
+    border-width: 0rem;
+    /* bayad dorost shavad */
+    padding: 0.5rem 1.6rem 0.5rem 1.6rem;
+}
+
+.listSlideCarousel {
+    display: flex;
+    margin: 0rem;
+    padding: 2rem 0rem 2rem 0rem;
+    text-align: center;
+}
+
+.workBoxSlideCarousel {
+    display: flex;
+    border-radius: 0.7rem;
+    width: 40rem !important;
+    margin-right: 0.7rem;
+    background-color: rgb(233, 229, 223);
+}
+
+.eachWorkBoxSlideCarousel {
+    margin: 1.4rem 0.2rem 1.2rem 0.8rem;
+    padding-left: 0.5rem;
+    padding-right: 0.2rem;
+    flex-grow: 1;
+    text-align: left;
+}
+
+.eachWorkBoxSlideCarousel:hover {
+    text-decoration: blue underline;
+    cursor: pointer;
+}
+
+.eachWorkBoxSlideCarousel h3,
+p,
+a {
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin: 0rem;
+    text-align: left;
+    text-decoration: none;
+}
+
+.eachWorkBoxSlideCarousel a {
+    color: rgba(12, 64, 209, 0.9);
+}
+
+.editWorkBoxSlideCarousel {
+    padding: 0.8rem;
+    width: 2rem;
+    height: 2rem;
+    color: rgba(0, 0, 0, 0.6);
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+.svgEditWorkBoxSlideCarousel {
+    width: 2rem;
+    height: 2rem;
+}
+
+.editWorkBoxSlideCarousel:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.shareBoxSlideCarousel {
+    display: flex;
+    border: 0.1rem solid rgba(0, 0, 0, 0.5);
+    border-radius: 0.7rem;
+    width: 40rem !important;
+}
+
+.shareBoxSlideCarousel:hover {
+    text-decoration: blue underline;
+}
