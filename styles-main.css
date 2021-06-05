@@ -1,226 +1,225 @@
-* {
-  padding: 0;
-  margin: 0;
-  direction: ltr;
-  scroll-behavior: smooth;
-  box-sizing: border-box;
-  font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto,
-    Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell,
-    Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
-    Lucida Grande, Helvetica, Arial, sans-serif;
-  list-style-type: none;
-}
-html {
-  height: 100%;
-}
-body {
-  min-height: 100vh;
-  background: rgba(68, 22, 235, 0.1);
-  display: flex;
-  flex-direction: column;
-}
-.main a {
-  text-decoration: none;
+#contentContainer {
+    min-height: 50rem;
+    background: rgb(243, 242, 239);
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
-.main a:link {
-  color: black;
+.contentMain {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 35rem;
+    flex: 1;
 }
 
-.main a:hover {
-  color: black;
-  text-decoration: underline;
+.contentMain a {
+    text-decoration: none;
 }
 
-.main a:visited {
-  color: black;
+.contentMain a:link {
+    color: black;
 }
 
-
-.container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
+.contentMain a:hover {
+    color: black;
+    text-decoration: underline;
 }
 
-.main {
-  margin-top: 5rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  width: 70vh;
-  flex: 1;
+.contentMain a:visited {
+    color: black;
 }
 
 .sec {
-  justify-items: center;
-  margin-left: 14rem;
-  padding: 2rem 2rem;
-  font-size: small;
+    justify-items: center;
+    margin-left: 0rem;
+    padding: 0rem 0rem 4rem 1rem;
+    font-size: small;
 }
 
 .about {
-  width: 75%;
-  height: 10rem;
-  background-color: #fff;
-  margin-bottom: 1rem;
-  border-radius: 0.5rem;
-  font-size: 1rem;
+    width: 71rem;
+    height: 12rem;
+    background-color: #fff;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
 }
 
 .aboutMe {
-  padding-top: 1rem;
+    padding-top: 1rem;
 }
 
 .aboutPart {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .aboutEdit {
-  margin-left: 61rem;
+    padding: 0.7rem 0.5rem 0.7rem 0.8rem;
+    width: 2rem;
+    height: 2rem;
+    color: rgba(41, 41, 41, 0.9);
+    background-color: transparent;
+    border-radius: 50%;
+    margin: 1rem 1rem 0 0;
+}
+
+.aboutEdit:hover {
+    background-color: rgb(224, 224, 224);
+    cursor: pointer;
 }
 
 .activity {
-  width: 75%;
-  height: 18rem;
-  background-color: #fff;
-  margin-bottom: 1rem;
-  border-radius: 0.5rem;
-  font-size: 1rem;
+    width: 71rem;
+    height: 20rem;
+    background-color: #fff;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    border: 0rem solid rgb(255, 255, 255);
 }
 
 .htmlActivity {
-  margin-top: 1rem;
+    margin-top: 1rem;
 }
 
 .seeALL {
-  border-top: 0.008rem solid gray;
+    border-top: 0.008rem solid gray;
 }
 
 .experience {
-  width: 75%;
-  height: 20rem;
-  background-color: #fff;
-  border-bottom: 1px solid #d6cec2;
-  border-radius: 0.5rem 0.5rem 0rem 0rem;
-  font-size: 1rem;
+    width: 71rem;
+    height: 20rem;
+    background-color: #fff;
+    border-bottom: 1px solid #d6cec2;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+    font-size: 1rem;
+    border: 0rem solid rgb(255, 255, 255);
 }
 
 .education {
-  width: 75%;
-  height: 15rem;
-  background-color: #fff;
-  border-bottom: 1px solid #d6cec2;
-  border-radius: 0rem;
-  font-size: 1rem;
+    margin-top: 1rem;
+    width: 71rem;
+    height: 15rem;
+    background-color: #fff;
+    border-bottom: 1px solid #d6cec2;
+    border-radius: 0rem;
+    font-size: 1rem;
+    border: 0rem solid rgb(255, 255, 255);
 }
 
 .khajeh,
 .linkedin {
-  display: flex;
-  flex-direction: column;
-  margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
 }
 
 .khajehLogo,
 .learningLogo {
-  width: 3rem;
-  height: 3rem;
+    width: 3rem;
+    height: 3rem;
 }
 
 .year,
 .expirationDate,
 .educationCerter {
-  color: grey;
+    color: grey;
 }
 
 .certificates {
-  width: 75%;
-  height: 15rem;
-  background-color: #fff;
-  margin-bottom: 1rem;
-  border-radius: 0rem 0rem 0.5rem 0.5rem;
-  font-size: 1rem;
+    padding-top: 1rem;
+    width: 71rem;
+    height: 15rem;
+    background-color: #fff;
+    margin-bottom: 1rem;
+    border-radius: 0rem 0rem 0.5rem 0.5rem;
+    font-size: 1rem;
 }
 
 .skills {
-  width: 75%;
-  height: 21rem;
-  background-color: #fff;
-  margin-bottom: 1rem;
-  border-radius: 0.5rem;
-  font-size: 1rem;
+    width: 71rem;
+    height: 21rem;
+    background-color: #fff;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
 }
 
 .skillTop {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 .skillTop p {
-  margin-left: 41rem;
-  color: grey;
+    margin-left: 41rem;
+    color: grey;
 }
 
 .skillTop li-icon {
-  margin-left: 2rem;
-  color: grey;
+    margin-left: 2rem;
+    color: grey;
 }
 
 .skillButton {
-  border-radius: 3rem;
-  background-color: #fff;
-  border-color: #0a66c2;
-  color: #0a66c2;
-  padding: 0.5rem;
-  margin-top: 2rem;
+    border-radius: 3rem;
+    background-color: #fff;
+    border-color: #0a66c2;
+    color: #0a66c2;
+    padding: 0.5rem;
+    margin-top: 2rem;
 }
 
 .skillButton:hover {
-  background: rgba(68, 22, 235, 0.1);
+    background: rgba(68, 22, 235, 0.1);
 }
 
 .skillContent li {
-  margin: 1rem;
+    margin: 1rem;
 }
 
 .accomplishments {
-  width: 75%;
-  height: 20rem;
-  background-color: #fff;
-  margin-bottom: 1rem;
-  border-radius: 0.5rem;
-  font-size: 1rem;
+    width: 71rem;
+    height: 20rem;
+    background-color: #fff;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
 }
 
 .intrests {
-  width: 75%;
-  height: 23rem;
-  background-color: #fff;
-  border-radius: 0.5rem;
-  font-size: 1rem;
-  margin-bottom: 2rem;
+    width: 71rem;
+    height: 23rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    margin-bottom: 2rem;
 }
 
 .secGridContent {
-  display: grid;
-  grid-template-columns: 30rem 30rem;
-  grid-template-rows: 5rem 5rem 5rem;
-  margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 30rem 30rem;
+    grid-template-rows: 5rem 5rem 5rem;
+    margin-top: 2rem;
 }
 
 .secContent {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .interestLi {
-  display: flex;
-  flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 .aboutLogo {
-  width: 3rem;
-  height: 3rem;
+    width: 3rem;
+    height: 3rem;
 }
