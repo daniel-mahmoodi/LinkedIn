@@ -19,23 +19,23 @@ body {
   display: flex;
   flex-direction: column;
 }
-
-a {
+.main a {
   text-decoration: none;
 }
 
-a:link {
+.main a:link {
   color: black;
 }
 
-a:hover {
+.main a:hover {
   color: black;
   text-decoration: underline;
 }
 
-a:visited {
+.main a:visited {
   color: black;
 }
+
 
 .container {
   display: flex;
