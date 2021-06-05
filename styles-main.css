@@ -1,0 +1,209 @@
+* {
+  padding: 0;
+  margin: 0;
+  direction: ltr;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell,
+    Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+    Lucida Grande, Helvetica, Arial, sans-serif;
+  list-style-type: none;
+}
+html {
+  height: 100%;
+}
+body {
+  min-height: 100vh;
+  background: rgba(68, 22, 235, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: black;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.main {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 70vh;
+  flex: 1;
+}
+
+.sec {
+  justify-items: center;
+  margin-left: 14rem;
+  padding: 2rem 2rem;
+  font-size: small;
+}
+
+.about {
+  width: 75%;
+  height: 10rem;
+  background-color: #fff;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.aboutMe {
+  padding-top: 1rem;
+}
+
+.aboutPart {
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutEdit {
+  margin-left: 61rem;
+}
+
+.activity {
+  width: 75%;
+  height: 18rem;
+  background-color: #fff;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.htmlActivity {
+  margin-top: 1rem;
+}
+
+.seeALL {
+  border-top: 0.008rem solid gray;
+}
+
+.experience {
+  width: 75%;
+  height: 20rem;
+  background-color: #fff;
+  border-bottom: 1px solid #d6cec2;
+  border-radius: 0.5rem 0.5rem 0rem 0rem;
+  font-size: 1rem;
+}
+
+.education {
+  width: 75%;
+  height: 15rem;
+  background-color: #fff;
+  border-bottom: 1px solid #d6cec2;
+  border-radius: 0rem;
+  font-size: 1rem;
+}
+
+.khajeh,
+.linkedin {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.khajehLogo,
+.learningLogo {
+  width: 3rem;
+  height: 3rem;
+}
+
+.year,
+.expirationDate,
+.educationCerter {
+  color: grey;
+}
+
+.certificates {
+  width: 75%;
+  height: 15rem;
+  background-color: #fff;
+  margin-bottom: 1rem;
+  border-radius: 0rem 0rem 0.5rem 0.5rem;
+  font-size: 1rem;
+}
+
+.skills {
+  width: 75%;
+  height: 20rem;
+  background-color: #fff;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.skillButton {
+  border-radius: 3rem;
+  color: #0a66c2;
+  padding: 0.5rem;
+}
+
+.skillButton:hover {
+  background: rgba(68, 22, 235, 0.1);
+}
+
+.skillContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.accomplishments {
+  width: 75%;
+  height: 20rem;
+  background-color: #fff;
+  margin-bottom: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.intrests {
+  width: 75%;
+  height: 23rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.secGridContent {
+  display: grid;
+  grid-template-columns: 30rem 30rem;
+  grid-template-rows: 5rem 5rem 5rem;
+  margin-top: 2rem;
+}
+
+.secContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.interestLi {
+  display: flex;
+  flex-direction: row;
+}
+
+.aboutLogo {
+  width: 3rem;
+  height: 3rem;
+}
