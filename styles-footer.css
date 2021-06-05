@@ -10,19 +10,19 @@
     Lucida Grande, Helvetica, Arial, sans-serif;
 }
 
-a {
+.footer a {
   text-decoration: none;
 }
 
-a:link {
+.footer a:link {
   color: gray;
 }
 
-a:visited {
+.footer a:visited {
   color: grey;
 }
 
-a:hover {
+.footer a:hover {
   color: black;
 }
 
