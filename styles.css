@@ -91,7 +91,7 @@ body {
 .viewedbox {
     margin-top: 1rem;
     width: 18.75rem;
-    height: 53rem;
+    height: 43rem;
     background: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
@@ -160,7 +160,7 @@ a:hover {
     height: 3rem;
     width: 3rem;
     border-radius: 50%;
-    margin-right: 0.2rem;
+    margin: 0.5rem;
 }
 
 .info-custom {
@@ -173,8 +173,11 @@ a:hover {
     line-height: 1;
     word-break: break-word;
     color: rgb(0, 0, 0);
+    font-size: small;
 }
-
+.p-custom {
+    font-size: medium;
+}
 .footer-custom {
     justify-content: center;
     align-items: center;
@@ -185,13 +188,13 @@ a:hover {
     color: rgba(128, 128, 128, 0.8);
     padding: 0.3rem;
     text-align: center;
-    display: inline-block;
+    /* display: inline-block; */
     font-size: 15px;
     padding-left: 1.6rem !important;
     padding-right: 1.6rem !important;
     background: rgb(255, 255, 255);
     border-radius: 15px;
-    border: 0.1 solid rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(128, 128, 128, 0.5);
     cursor: pointer;
 }
 
@@ -217,7 +220,7 @@ a:hover {
 .knowpeople {
     margin-top: 1rem;
     width: 18.75rem;
-    height: 53rem;
+    height: 43rem;
     background: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
