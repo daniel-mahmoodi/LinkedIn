@@ -55,13 +55,13 @@
 /* Style the search field */
 
 form.search input[type="text"] {
-    padding: 0.3rem;
+    padding: 0.5rem;
     font-size: 1.4rem;
     border: none;
     float: left;
     width: 15%;
     background: #f1f1f1;
-    margin-right: 5rem;
+    margin-right: 10rem;
 }
 
 
@@ -70,7 +70,7 @@ form.search input[type="text"] {
 form.search button {
     float: left;
     width: 5%;
-    padding: 0.3rem;
+    padding: 0.5rem;
     background: #f1f1f1;
     color: #666666;
     font-size: 1.4rem;
