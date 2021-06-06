@@ -76,21 +76,38 @@
 }
 
 .activity {
-    width: 71rem;
-    height: 20rem;
-    background-color: #fff;
-    margin-bottom: 1rem;
-    border-radius: 0.5rem;
-    font-size: 1rem;
-    border: 0rem solid rgb(255, 255, 255);
+  width: 75%;
+  height: 18rem;
+  background-color: #fff;
+  border-radius: 0.5rem 0.5rem 0rem 0rem;
+  font-size: 1rem;
+}
+
+#activityFollowers {
+  color: #0a66c2;
+  font-weight: 500;
 }
 
 .htmlActivity {
-    margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
 }
 
 .seeALL {
-    border-top: 0.008rem solid gray;
+  display: flex;
+  color: grey;
+  justify-items: center;
+  width: 75%;
+  height: 1rem;
+  background-color: #fff;
+  margin-bottom: 1rem;
+  padding-left: 31rem;
+  padding-bottom: 2rem;
+  padding-top: 0.5rem;
+  border-radius: 0rem 0rem 0.5rem 0.5rem;
+  font-size: 1rem;
+  border-top: 1px solid #d6cec2;
 }
 
 .experience {
