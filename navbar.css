@@ -83,3 +83,8 @@ form.search button {
 form.search button:hover {
     background: #6666666e;
 }
+.proImg {
+    border-radius: 50%;
+    max-width: 1.5rem;
+    max-height: 1.5rem;
+  }
