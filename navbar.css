@@ -23,7 +23,7 @@
     padding-top: 0.3rem;
     padding-left: 1rem;
     text-decoration: none;
-    font-size: 1.4rem;
+    font-size: medium;
 }
 
 .fas {
@@ -56,12 +56,13 @@
 
 form.search input[type="text"] {
     padding: 0.5rem;
-    font-size: 1.4rem;
+    padding-right: 3rem;
+    font-size: small;
     border: none;
     float: left;
     width: 15%;
     background: #f1f1f1;
-    margin-right: 10rem;
+    margin-right: 6.25rem;
 }
 
 
@@ -71,9 +72,10 @@ form.search button {
     float: left;
     width: 5%;
     padding: 0.5rem;
+    padding-right: 3rem;
     background: #f1f1f1;
     color: #666666;
-    font-size: 1.4rem;
+    font-size: small;
     border: none;
     cursor: pointer;
 }
