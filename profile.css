@@ -103,28 +103,28 @@
 }
 
 .userTextHeading {
-    font-size: 2.4rem;
+    font-size:small;
     font-weight: 600 bold;
     padding: 0rem;
     margin: 0rem;
 }
 
 .userTextJob {
-    font-size: 1.6rem;
+    font-size: small;
     font-weight: 400 bold;
     margin-bottom: 0.3rem;
 }
 
 .userLocation {
     margin-bottom: 0.5rem;
-    font-size: 1.4rem;
+    font-size:small;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.6);
 }
 
 .userContactInfo {
     text-decoration: none;
-    font-size: 1.4rem;
+    font-size: small;
     font-weight: 600;
     color: rgb(10, 102, 194) !important;
 }
@@ -152,12 +152,12 @@
 }
 
 .userLastPositionPlace div h2 {
-    font-size: 1.4rem;
+    font-size: small;
     margin: 0;
 }
 
 .connections {
-    font-size: 1.4rem;
+    font-size: small;
     font-weight: 400;
     margin-left: 0;
     margin-top: 0rem;
@@ -186,7 +186,7 @@
     background-color: rgba(255, 0, 0, 0);
     margin-right: 0.7rem;
     cursor: pointer;
-    font-size: 1.6rem;
+    font-size: small;
     font-weight: 600;
     padding: 0.5rem 1.6rem 0.5rem 1.6rem;
     color: rgba(0, 0, 0, 0.6);
