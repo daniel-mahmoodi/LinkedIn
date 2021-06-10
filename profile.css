@@ -103,7 +103,7 @@
 }
 
 .userTextHeading {
-    font-size:small;
+    font-size: small;
     font-weight: 600 bold;
     padding: 0rem;
     margin: 0rem;
@@ -117,7 +117,7 @@
 
 .userLocation {
     margin-bottom: 0.5rem;
-    font-size:small;
+    font-size: small;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.6);
 }
@@ -284,7 +284,7 @@ a {
 
 .shareBoxSlideCarousel {
     display: flex;
-    border: 0.1rem solid rgba(0, 0, 0, 0.5);
+    border: 0.1rem solid rgba(0, 0, 0, 0.3);
     border-radius: 0.7rem;
     width: 40rem !important;
 }
