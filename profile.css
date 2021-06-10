@@ -11,7 +11,7 @@
 }
 
 .profileBackgroundImg {
-    width: 72rem;
+    width: 100%;
     height: 100%;
     border-radius: 0.5rem 0.5rem 0 0;
 }
@@ -31,6 +31,7 @@
 
 .svgEditProfileBackground {
     color: rgb(10, 102, 194);
+    margin-top: 0.5rem;
 }
 
 .profileBackground {
@@ -50,18 +51,15 @@
 }
 
 .userProfile {
-    margin-top: -15.6rem;
-    margin-left: 0.6rem;
+    margin-top: -8rem;
+    margin-left: 0rem;
 }
 
 .avatarUserProfile {
-    /* border-radius: 50%; */
-    width: 20rem;
-    height: 20rem;
-    border: 0.6rem solid rgb(238, 238, 238);
+    width: 10rem;
+    height: 10rem;
+    border: 0.3rem solid rgb(238, 238, 238);
     vertical-align: middle;
-    width: 20rem;
-    height: 20rem;
     border-radius: 50%;
 }
 
@@ -74,14 +72,14 @@
 } */
 
 .positionEditIntro {
-    padding-right: 2rem;
+    padding-right: 1.5rem;
 }
 
 .editIntro {
     position: absolute;
-    padding: 0.7rem 0.5rem 0.7rem 0.8rem;
-    width: 2rem;
-    height: 2rem;
+    padding: 0.6rem 0.5rem 0.6rem 0.6rem;
+    width: 1.5rem;
+    height: 1.5rem;
     color: rgba(41, 41, 41, 0.9);
     background-color: transparent;
     border-radius: 50%;
@@ -103,14 +101,15 @@
 }
 
 .userTextHeading {
-    font-size: small;
+    font-size: 16px;
     font-weight: 600 bold;
+    line-height: 30px;
     padding: 0rem;
     margin: 0rem;
 }
 
 .userTextJob {
-    font-size: small;
+    font-size: 16px;
     font-weight: 400 bold;
     margin-bottom: 0.3rem;
 }
@@ -249,10 +248,10 @@
 }
 
 .eachWorkBoxSlideCarousel h3,
-p,
-a {
+.eachWorkBoxSlideCarousel p,
+.eachWorkBoxSlideCarousel a {
     color: rgba(0, 0, 0, 0.9);
-    font-size: 1.6rem;
+    font-size: 16px;
     font-weight: 400;
     margin: 0rem;
     text-align: left;
@@ -265,16 +264,16 @@ a {
 
 .editWorkBoxSlideCarousel {
     padding: 0.8rem;
-    width: 2rem;
-    height: 2rem;
+    width: 1rem;
+    height: 1rem;
     color: rgba(0, 0, 0, 0.6);
     background-color: transparent;
     border-radius: 50%;
 }
 
 .svgEditWorkBoxSlideCarousel {
-    width: 2rem;
-    height: 2rem;
+    width: 1rem;
+    height: 1rem;
 }
 
 .editWorkBoxSlideCarousel:hover {
