@@ -25,3 +25,6 @@ git push -u origin develop
 
 git checkout develop //شاید نیاز نباشه
 git checkout -b feature_branch
+
+git checkout develop
+git merge feature_branch
