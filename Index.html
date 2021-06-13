@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./navbar.css">
     <link rel="stylesheet" href="./experience.css">
     <link rel="stylesheet" href="./activity.css">
+    <link rel="stylesheet" href="./skill.css">
 </head>
 
 <body>
@@ -448,28 +449,50 @@
                                 <p class="expirationDate">Issued Apr 2021 . No Expiration Date</p>
                             </a>
                         </section>
-                        <section class="sec skills">
-                            <div class="skillTop">
-                                <h2>Skills & endorsements</h2>
-                                <p>Add a new skill</p>
-                                <li-icon type="pencil-icon" role="img" aria-label="Edit about"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" class="aboutEdit" width="24" height="24" focusable="false">
-                                    <path d="M21.13 2.86a3 3 0 00-4.17 0l-13 13L2 22l6.19-2L21.13 7a3 3 0 000-4.16zM6.77 18.57l-1.35-1.34L16.64 6 18 7.35z"></path>
-                                  </svg></li-icon>
-                            </div>
-                            <button class="skillButton">
-                    Take skill quiz
+
+                        <section class="sec skill">
+                            <div class="skill__all">
+
+                                <div class="skill__Top">
+                                    <h2>Skills & endorsements</h2>
+                                    <div><a href="" class="skill__Top--addskill">
+                                        Add a new skill
+                                    </a>
+                                    </div>
+
+
+
+                                    <li-icon type="pencil-icon" role="img" aria-label="Edit about"><svg class="aboutEdit" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" data-supported-dps="24x24" fill="currentColor" width="24" height="24" focusable="false">
+                                            <path d="M21.13 2.86a3 3 0 00-4.17 0l-13 13L2 22l6.19-2L21.13 7a3 3 0 000-4.16zM6.77 18.57l-1.35-1.34L16.64 6 18 7.35z"></path>
+                                    </svg></li-icon>
+
+                                </div>
+                                <button class="skillButton">
+                                    Take skill quiz
                 </button>
-                            <ul class="secContent skillContent">
-                                <a href="#esl">
-                                    <li>English as a Second Language (ESL)</li>
-                                </a>
-                                <a href="#french">
-                                    <li>French</li>
-                                </a>
-                                <a href="#et">
-                                    <li>English Translation</li>
-                                </a>
-                            </ul>
+                                <ol class="secContent skillContent">
+                                    <a href="#esl">
+                                        <li>English as a Second Language (ESL)</li>
+                                    </a>
+                                    <div class="skillContent--borderbottom"></div>
+                                    <a href="#french">
+                                        <li>French</li>
+                                    </a>
+                                    <div class="skillContent--borderbottom"></div>
+                                    <a href="#et">
+                                        <li>English Translation</li>
+                                    </a>
+
+                                </ol>
+                            </div>
+                            <div class="skill__borderBottom"></div>
+                            <a href="" class="skill__seeMore">
+                                <span>Show more
+                                            <li-icon aria-hidden="true" type="chevron-down-icon"  size="small"><svg  class="skill_seeMore--icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" data-supported-dps="16x16" fill="currentColor" class="mercado-match" width="16" height="16" focusable="false">
+                                                <path d="M1 5l7 4.61L15 5v2.39L8 12 1 7.39z"></path>
+                                            </svg></li-icon>
+                                        </span>
+                            </a>
                         </section>
                         <section class="sec accomplishments">
                             <h2>Accomplishments</h2>

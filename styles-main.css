@@ -126,52 +126,6 @@
     font-size: 1rem;
 }
 
-.skills {
-    width: 100%;
-    height: 21rem;
-    background-color: #fff;
-    margin-bottom: 1rem;
-    border-radius: 0.5rem;
-    font-size: 1rem;
-}
-
-.skillTop {
-    display: flex;
-    justify-content: center;
-    padding: 0 0.8rem;
-    margin: 0;
-    flex-direction: row;
-    justify-content: space-between;
-}
-
-.skillTop p {
-    margin-left: 41rem;
-    color: grey;
-}
-
-.skillTop li-icon {
-    margin-left: 2rem;
-    color: grey;
-}
-
-.skillButton {
-    border-radius: 3rem;
-    background-color: #fff;
-    border-color: #0a66c2;
-    color: #0a66c2;
-    padding: 0.5rem;
-    margin-top: 2rem;
-}
-
-.skillButton:hover {
-    background: rgba(68, 22, 235, 0.1);
-}
-
-.skillContent li {
-    margin: 1rem;
-    list-style-type: none;
-}
-
 .accomplishments {
     width: 100%;
     height: 20rem;
