@@ -78,16 +78,6 @@
     cursor: pointer;
 }
 
-.activity {
-    width: 100%;
-    height: 20rem;
-    background-color: #fff;
-    border-radius: 0.5rem;
-    font-size: 1rem;
-    border-color: #fff;
-    margin: 1rem 0;
-}
-
 #activityFollowers {
     color: #0a66c2;
     font-weight: 500;
