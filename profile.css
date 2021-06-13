@@ -147,12 +147,12 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    color: rgb(0, 0, 0, 0.7);
 }
 
 .userLastPositionPlace div h2 {
     font-size: small;
     margin: 0;
+    color: rgb(0, 0, 0, 0.7);
 }
 
 .connections {
@@ -283,11 +283,90 @@
 
 .shareBoxSlideCarousel {
     display: flex;
-    border: 0.1rem solid rgba(0, 0, 0, 0.3);
+    border: 0.1rem solid rgba(0, 0, 0, 0.1);
     border-radius: 0.7rem;
     width: 40rem !important;
 }
 
 .shareBoxSlideCarousel:hover {
     text-decoration: blue underline;
+}
+
+
+/* profile strength */
+
+.profile__strength {
+    background-color: white;
+    width: auto;
+    height: 5rem;
+    border: 0.05rem solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.3rem;
+    margin: 1rem 0;
+    padding: 1.5rem;
+}
+
+.profile__strength h2 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.profile__strength h2 span {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.profile__strength span {
+    margin-bottom: 1rem;
+}
+
+.profile__strength__greenBox {
+    display: flex;
+}
+
+.profile__strength__greenBox div {
+    position: relative;
+    margin: 0.1rem;
+    margin-right: 0;
+    width: 7em;
+    height: 0.8rem;
+    background-color: rgb(5, 118, 66);
+    border: 0.05rem solid rgba(0, 0, 0, 0);
+    border-right: 0rem solid white;
+}
+
+.profile__strength__greenBox div:first-child {
+    border-radius: 0.1rem 0 0 0.1rem;
+}
+
+.profile__strength__greenBox div:last-child {
+    border: 0.05rem solid rgba(0, 0, 0, 0.3);
+    border-left: 0rem solid;
+    border-radius: 0;
+    margin-left: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.profile__strength__greenBox button {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    top: -0.5rem;
+    left: 6em;
+    background-color: white;
+    border: 0.05rem solid rgba(0, 0, 0, 0.6);
+    border-radius: 50%;
+    box-shadow: 0 0 0 0.1rem white;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.profile__strength--tik svg {
+    color: rgb(5, 118, 66);
+}
+
+.profile__strength--star svg {
+    color: rgb(0, 0, 0, 0.6);
 }
